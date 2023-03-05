@@ -1,6 +1,4 @@
-# Aula inicial: Apresentação e GIT
-
-Gravação: https://www.youtube.com/watch?v=d4EyQMg5m-U
+# GIT
 
 ## Requisitos
 1. O primeiro passo é ter o programa GIT instalado antes da aula link: https://git-scm.com/download/win
