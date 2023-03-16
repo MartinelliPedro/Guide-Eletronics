@@ -1,10 +1,28 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Open+Sans:wght@300;400;600&family=Oswald&family=Press+Start+2P&family=Rubik&display=swap');
+
+/* Estilos gerais */
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    /* adiciona o box-sizing para melhorar o layout */
+}
+
+body {
+    background: #222222;
+    margin: 0;
+    /* remove a margem padrão do body */
+}
+
+/* Estilos da barra de navegação */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #222222;
     color: white;
-    height: 80px;
+    height: 100px;
     padding: 0 30px;
     font-size: 18px;
 }
@@ -19,11 +37,16 @@ nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    font-size: 15px;
     transition: color 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+    /* adiciona uma borda inferior transparente aos links para melhorar a aparência */
 }
 
 nav a:hover {
     color: #ddd;
+    border-color: #ddd;
+    /* adiciona uma borda inferior ao passar o mouse nos links */
 }
 
 nav a:first-child {
@@ -61,4 +84,56 @@ nav li:last-child {
         margin-right: 0;
         margin-bottom: 10px;
     }
+}
+
+/* Estilos do título principal */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #111;
+}
+
+header .titulo {
+    width: 50%;
+    max-width: 600px;
+    font-size: 62px;
+    color: aqua;
+    line-height: 65px;
+    padding: 80px 80px 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-right: 300;
+}
+
+/* Estilos do botão */
+.button {
+    position: relative;
+    justify-content: center;
+    /* centraliza o botão horizontalmente */
+    align-items: center;
+    /* centraliza o botão verticalmente */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* adiciona uma margem inferior para separar o botão do conteúdo abaixo */
+}
+
+.button a {
+    color: #222222;
+    /* altera a cor do texto do botão */
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+    text-decoration: none;
+    background-color: #EFEFEF;
+    position: relative;
+    padding: 20px 40px;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 40px;
+    margin-left: 0;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
 }
