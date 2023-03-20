@@ -4,8 +4,7 @@
 /* Estilos gerais */
 
 * {
-    font-family: 'Press Start 2P', cursive;
-    box-sizing: border-box;
+    
     /* adiciona o box-sizing para melhorar o layout */
 }
 
@@ -37,9 +36,10 @@ nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 13px;
+    font-size: 26px;
     transition: color 0.3s ease-in-out;
     border-bottom: 2px solid transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* adiciona uma borda inferior transparente aos links para melhorar a aparência */
 }
 
@@ -94,6 +94,8 @@ header {
     align-items: center;
     flex-direction: row;
     background-color: #111;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
 }
 
 header .titulo {
@@ -106,6 +108,7 @@ header .titulo {
     margin-bottom: 20px;
     text-align: left;
     margin-right: 300;
+    
 }
 
 /* Estilos do botão */
@@ -163,6 +166,8 @@ header .titulo {
 .texto-h3 {
     line-height: 40px;
     font-size: large;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
 }
 
 .texto-h3 span {
@@ -170,10 +175,11 @@ header .titulo {
 }
 
 .second-page .texto-p {
-    font-size: 10px;
+    font-size: 28px;
     line-height: 20px;
     letter-spacing: 0px;
     max-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* ================================================================= */
@@ -200,12 +206,15 @@ header .titulo {
 .third-page .titulo {
     font-size: x-large;
     margin-bottom: 15px;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
 }
 
 .third-page .texto-p {
-    font-size: 10px;
+    font-size: 28px;
     line-height: 20px;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .third-page img {
