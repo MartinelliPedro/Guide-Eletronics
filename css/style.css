@@ -1,0 +1,231 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Open+Sans:wght@300;400;600&family=Oswald&family=Press+Start+2P&family=Rubik&display=swap');
+
+/* Estilos gerais */
+
+* {
+    
+    /* adiciona o box-sizing para melhorar o layout */
+}
+
+body {
+    background: #222222;
+    margin: 0;
+    /* remove a margem padrão do body */
+}
+
+/* ================================================== */
+/* Barra de navegação */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    height: 100px;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+nav img {
+    max-width: 100%;
+    max-height: 60px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 26px;
+    transition: color 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* adiciona uma borda inferior transparente aos links para melhorar a aparência */
+}
+
+nav a:hover {
+    color: #ddd;
+    border-color: #ddd;
+    /* adiciona uma borda inferior ao passar o mouse nos links */
+}
+
+nav a:first-child {
+    margin-left: 0;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* ======================================================== */
+/* Primeira página */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #111;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+header .titulo {
+    width: 50%;
+    max-width: 600px;
+    font-size: 62px;
+    color: aqua;
+    line-height: 65px;
+    padding: 80px 80px 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-right: 300;
+    
+}
+
+/* Estilos do botão */
+.button {
+    position: relative;
+    justify-content: center;
+    /* centraliza o botão horizontalmente */
+    align-items: center;
+    /* centraliza o botão verticalmente */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* adiciona uma margem inferior para separar o botão do conteúdo abaixo */
+    margin-right: 190px;
+}
+
+.button a {
+    color: #222222;
+    /* altera a cor do texto do botão */
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+    text-decoration: none;
+    background-color: #EFEFEF;
+    position: relative;
+    padding: 20px 40px;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 40px;
+    margin-left: 0;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.img-container img {
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 10%;
+    margin-bottom: 70px;
+}
+
+/* ================================================================= */
+/* Segunda Página */
+
+.second-page {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: 15%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.texto-h3 {
+    line-height: 40px;
+    font-size: large;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+.texto-h3 span {
+    color: aqua;
+}
+
+.second-page .texto-p {
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    max-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ================================================================= */
+/* terceira página */
+
+.third-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: auto;
+    flex-direction: row;
+    background-color: #111;
+}
+
+.third-page .texto {
+    width: 50%;
+    font-size: 10px;
+    color: aqua;
+    padding: 80px 80px 20px;
+    text-align: left;
+    margin-right: 300;
+
+}
+
+.third-page .titulo {
+    font-size: x-large;
+    margin-bottom: 15px;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+.third-page .texto-p {
+    font-size: 28px;
+    line-height: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.third-page img {
+    width: 600px;
+    height: 400px;
+    margin: 90px;
+    margin-right: 80px;
+    margin-top: 110px;
+    border-radius: 10%;
+}
