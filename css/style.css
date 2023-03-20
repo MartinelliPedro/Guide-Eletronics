@@ -37,7 +37,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 13px;
     transition: color 0.3s ease-in-out;
     border-bottom: 2px solid transparent;
     /* adiciona uma borda inferior transparente aos links para melhorar a aparência */
@@ -51,6 +51,7 @@ nav a:hover {
 
 nav a:first-child {
     margin-left: 0;
+
 }
 
 nav ul {
@@ -119,6 +120,7 @@ header .titulo {
     margin-top: 20px;
     margin-bottom: 50px;
     /* adiciona uma margem inferior para separar o botão do conteúdo abaixo */
+    margin-right: 190px;
 }
 
 .button a {
@@ -136,4 +138,81 @@ header .titulo {
     margin-left: 0;
     margin-top: 20px;
     transition: background-color 0.3s ease-in-out;
+}
+
+.img-container img {
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 10%;
+    margin-bottom: 70px;
+}
+
+/* ================================================================= */
+/* Segunda Página */
+
+.second-page {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: 15%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.texto-h3 {
+    line-height: 40px;
+    font-size: large;
+}
+
+.texto-h3 span {
+    color: aqua;
+}
+
+.second-page .texto-p {
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    max-height: 100%;
+}
+
+/* ================================================================= */
+/* terceira página */
+
+.third-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: auto;
+    flex-direction: row;
+    background-color: #111;
+}
+
+.third-page .texto {
+    width: 50%;
+    font-size: 10px;
+    color: aqua;
+    padding: 80px 80px 20px;
+    text-align: left;
+    margin-right: 300;
+
+}
+
+.third-page .titulo {
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.third-page .texto-p {
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+}
+
+.third-page img {
+    width: 600px;
+    height: 400px;
+    margin: 90px;
+    margin-right: 80px;
+    margin-top: 110px;
+    border-radius: 10%;
 }
