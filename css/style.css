@@ -3,13 +3,12 @@
 
 /* Estilos gerais */
 
-* {
-    
-    /* adiciona o box-sizing para melhorar o layout */
-}
+* {}
+
+
 
 body {
-    background: #222222;
+    background: #111;
     margin: 0;
     /* remove a margem padrão do body */
 }
@@ -25,7 +24,7 @@ nav {
     color: white;
     height: 100px;
     padding: 0 30px;
-    font-size: 18px;
+    font-size: 1.4rem;
 }
 
 nav img {
@@ -112,7 +111,7 @@ header .titulo {
     margin-bottom: 20px;
     text-align: left;
     margin-right: 300;
-    
+
 }
 
 /* Estilos do botão */
@@ -127,13 +126,14 @@ header .titulo {
     margin-top: 20px;
     margin-bottom: 50px;
     /* adiciona uma margem inferior para separar o botão do conteúdo abaixo */
-    margin-right: 190px;
+    margin-right: 20px;
 }
 
 .button a {
     color: #222222;
     /* altera a cor do texto do botão */
     font-weight: bold;
+    cursor: pointer;
     font-size: 18px;
     text-align: justify;
     text-decoration: none;
@@ -142,13 +142,15 @@ header .titulo {
     padding: 20px 40px;
     -webkit-tap-highlight-color: transparent;
     border-radius: 40px;
-    margin-left: 0;
-    margin-top: 20px;
+    box-shadow: 0 9px #666;
     transition: background-color 0.3s ease-in-out;
 }
 
+.button:active {
+    transform: translateY(4px);
+}
+
 .img-container img {
-    margin-left: 150px;
     margin-top: 70px;
     border-radius: 10%;
     margin-bottom: 70px;
@@ -179,8 +181,8 @@ header .titulo {
 }
 
 .second-page .texto-p {
-    font-size: 28px;
-    line-height: 20px;
+    font-size: 1.5rem;
+    line-height: 30px;
     letter-spacing: 0px;
     max-height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -215,8 +217,8 @@ header .titulo {
 }
 
 .third-page .texto-p {
-    font-size: 28px;
-    line-height: 20px;
+    font-size: 1.5rem;
+    line-height: 30px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
