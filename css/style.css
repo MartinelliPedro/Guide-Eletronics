@@ -15,7 +15,9 @@ body {
     /* remove a margem padrão do body */
 }
 
-/* Estilos da barra de navegação */
+/* ================================================== */
+/* Barra de navegação */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -87,7 +89,9 @@ nav li:last-child {
     }
 }
 
-/* Estilos do título principal */
+/* ======================================================== */
+/* Primeira página */
+
 header {
     display: flex;
     justify-content: flex-start;
